@@ -1,0 +1,95 @@
+
+body {
+    background:rgb(243, 225, 236);
+    color:rgb(158, 10, 99);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header{font-weight: bold;
+    display: block;
+    background-color: rgb(255,255,255);
+    color: pink;}
+
+p{
+    display:block;
+}
+
+h2{
+    text-align:center;
+}
+
+
+article{
+
+    display: block;
+
+}
+
+.box{border:2px dotted white}
+
+.spacing-inside{padding:5%;
+}
+
+.spacing-outside{margin:5%
+}
+
+.navitem{
+
+    background-color: rgb(255,255,255);
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+footer{
+    background-color:white
+
+}
+
+main{
+    
+    max-width: 1000px;
+    width:80%;
+    margin:0 auto;
+    min-width:200px;
+}
+
+
+
+.botton{
+    background-color:rgb(158, 10, 99);
+    color: rgb(255,255,255);
+
+}
+
+
+.container{
+    display:flex;
+
+}
+
+
+
+.itemklein{
+    flex:1;
+}
+
+
+.itemgross{
+    flex:2;
+}
+
+h3{
+    text-align:"right";
+}
+
+.start{
+    text-align:center;
+}
+
+img{
+    width:80%;
+    max-width:400px;
+    min-width:50px;
+}
